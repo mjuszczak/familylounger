@@ -1,0 +1,63 @@
+form {
+  div.input {
+    > label {
+      display: block;
+    }
+    margin-bottom: 10px;
+  }
+  &.hidden {
+	display:none;
+  }
+  input {
+	background: #fff;
+	border: 1px solid #bbb;
+	font: normal normal 15px Arial, Tahoma, Verdana, sans-serif;
+	color: #555;
+	padding: 4px;
+    &.search {
+      padding-top: 6px;
+      padding-right: 0;
+      padding-bottom: 6px;
+      padding-left: 0;
+    }
+    &.smallinput {
+      width: 120px;
+    }
+    &.mediuminput {
+      width: 215px;
+    }
+    &.largeinput {
+      width: 310px;
+    }
+  }
+  textarea {
+    background: #fff;
+    border: 1px solid #bbb;
+    font: normal normal 15px Arial, Tahoma, Verdana, sans-serif;
+    color: #555;
+    padding-top: 4px;
+    padding-right: 0;
+    padding-bottom: 4px;
+    padding-left: 0;
+  }
+  .check, .check:hover, .check:focus {
+	border: 0;
+	padding: 0;
+	margin: 5px 5px 0 0;
+  }
+  .notices {
+    margin-bottom: 10px;
+    font-size: 90%;
+    .error {
+      color: red;
+    }
+    .sucess {
+      color: green;
+    }
+  }
+}
+form.inline {
+  input, button { 
+    margin-right: 5px;
+  }
+}

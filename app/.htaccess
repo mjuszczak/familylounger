@@ -1,0 +1,9 @@
+<IfModule IfModule mod_env.c>
+    SetEnv CODE_ENVIRONMENT production
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>

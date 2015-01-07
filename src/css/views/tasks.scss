@@ -1,0 +1,47 @@
+#tasks {
+  .task {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    .input {
+      margin-bottom: 15px;
+      input[type="checkbox"] {
+        display:none;
+      }
+      input[type="checkbox"] + label {
+        font-size: 130%;
+        vertical-align: bottom;
+      }
+      input[type="checkbox"] + label span {
+        display: inline-block;
+        width: 36px;
+        height: 35px;
+        margin-right: 20px;
+        vertical-align: middle;
+        cursor: pointer;
+        background:url(/img/todo_unchecked.png) left top no-repeat;
+      }
+      input[type="checkbox"]:checked + label span {
+        background:url(/img/todo_checked.png) left top no-repeat;
+      }
+    }
+    .meta {
+      margin-bottom: 5px;
+      .actions {
+        font-size: 80%;
+      }
+      .completed {
+        color: #777;
+        font-size: 90%;
+        text-align: right;
+      }
+    }
+  }
+  #pagination {
+    margin-top: 20px;
+  }
+}
+#add-edit-task {
+  input {
+    width: 75%;
+  }
+}

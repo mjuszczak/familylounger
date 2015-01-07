@@ -1,0 +1,170 @@
+#header {
+  width: 100%;
+  * {
+    line-height: 1;
+  }
+}
+
+.default #header {
+  padding: 10px;
+  border-bottom: 1px solid #efefef;
+  background-color: #fafafa;
+  img {
+    display: block;
+    margin: auto;
+    height: 75px;
+  }
+}
+
+.lounge #header {
+  height: 118px;
+  line-height: 118px;
+  background-image: url(/img/topdrop.png);
+  background-repeat: repeat-x;
+  #titlebar1 {
+    height: 35px;
+  }
+  #miniwmark {
+    float: right;
+    cursor: pointer;
+  }
+  #urlmark {
+    float: left;
+    margin-right: 25px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 5px;
+    color: #006664; 
+  }
+  #dispname {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4px;
+    font-style: italic;
+    text-shadow:
+      -1px -1px 0 #FFF,
+      1px -1px 0 #FFF,
+      -1px 1px 0 #FFF,
+      1px 1px 0 #FFF;
+  }
+  #signout {
+    font-family: 'Lato', sans-serif;
+    float: left;
+    margin-left: 190px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #666;
+    a {
+      color: #666;
+      text-decoration:none;
+    }
+    a:hover {
+      color: #003;
+      text-decoration: underline;
+    }
+  }
+  #titlebar2 {
+    height: 82px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative; 
+  }
+  #loungenav {
+    .navicon:first-of-type {
+      border-left: 1px solid #ccc;
+    }
+    .navicon {
+      height: 72px;
+      width: 85px;
+      margin-top: 11px;
+      float: left;
+      background-position: center;
+      position: relative;
+      border-right-width: 1px;
+      border-right-style: solid;
+      border-right-color: #CCC;
+      background-repeat: no-repeat;
+      background-position: center;
+      > a {
+        position:absolute;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        text-decoration:none;
+        z-index:10;
+        background-color:white;
+        opacity: 0;
+        filter: alpha(opacity=1);
+      }
+      &.updates {
+        background-image: url(/img/updates.png);
+      }
+      &.updates.active {
+        background-image: url(/img/updates_active.png);
+      }
+      &.blog {
+        background-image: url(/img/blog.png);
+      }
+      &.blog.active {
+        background-image: url(/img/blog_active.png);
+      }
+      &.calendar {
+        background-image: url(/img/calendar.png);
+      }
+      &.calendar.active {
+        background-image: url(/img/calendar_active.png);
+      }
+      &.people {
+        background-image: url(/img/people.png);
+      }
+      &.people {
+        background-image: url(/img/people_active.png);
+      }
+      &.meds {
+        background-image: url(/img/mymeds.png);
+      }
+      &.meds.active {
+        background-image: url(/img/mymeds_active.png);
+      }
+      &.tasks {
+        background-image: url(/img/todos.png);
+      }
+      &.tasks.active {
+        background-image: url(/img/todos_active.png);
+      }
+    }
+    .navspacer {
+      height: 72px;
+      width: 20px;
+      margin-top: 11px;
+      float: left;
+      position: relative;
+    }
+    .navicon.pop {
+      margin-top: 0px;
+      background-color: #FFF;
+      height: 82px;
+      border-top-width: 1px;
+      border-top-style: solid;
+      border-top-color: #CCC;
+    }
+    .navicon:hover {
+      background-color: #FFF;
+    }
+    .navicon.noborder {
+      border-width: 0px;
+    }
+    #minilogo {
+      position:absolute;
+      width:97px;
+      height:90px;
+      z-index:1;
+      left: 803px;
+      top: 16px;
+      background-image: url(/img/loungertopr.png);
+    }
+  }
+}

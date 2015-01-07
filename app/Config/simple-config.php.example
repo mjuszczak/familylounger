@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * Simplified site-wide configuration file
+ * This file is loaded by core.php
+ */
+
+/**
+ * Code environment
+ */
+$codeEnv = getenv('CODE_ENVIRONMENT');
+if($codeEnv === false)
+    $codeEnv = 'production';
+define('CODE_ENVIRONMENT', $codeEnv);
+unset($codeEnv);
+
+
+/**
+ * Security settings
+ */
+define('SECURITY_SALT', 'Fonyo1mUbOrH2oarrOsjuesUsVacK68ichFupotFighAd3yarpdovku');
+define('SECURITY_CIPHER_SEED', '465414687658678180945389804863583779677130394771259');
+
+
+/**
+ * Database settings
+ */
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'familylounger');
+define('DB_USER', 'app_fl');
+define('DB_PASS', 'dfag4ya34yababataa4abaha');
+
+
+/**
+ * Site Domain
+ */
+if(CODE_ENVIRONMENT == 'production'){
+    define('SITE_DOMAIN', 'familylounger.com');
+}
+else {
+    define('SITE_DOMAIN', 'familylounger.local');
+}
+
+
+/**
+ * Home URL
+ */
+define('HOME_URL','http://www.' . SITE_DOMAIN);
+
+

@@ -1,0 +1,57 @@
+#people {
+  .person {
+    float: left;
+    width: 350px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    .name {
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .relation-role {
+      color: #666;
+      font-size: 14px;
+      .actions {
+        font-size: 80%;
+      }
+    }
+    .separator {
+      width: 250px;
+      margin-top: 5px;
+      border-bottom: 1px #999 dashed;
+      text-align: right;
+      font-size: 11px;
+    }
+    .image {
+      float: right;
+      height: 82px;
+      width: 82px;
+      margin: -40px 0px 5px 0px;
+    }
+    .bio {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+  }
+}
+
+#pending-invitations, #pending-requests {
+  li {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  .invitee,.requester {
+    float: left;
+    .image {
+      float: left;
+      margin-right: 12px;
+    }
+    .info {
+      float: left;
+    }
+  }
+  .actions {
+    float: right;
+  }
+}

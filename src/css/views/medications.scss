@@ -1,0 +1,12 @@
+.medication {
+  float: left;
+  width: 350px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  .header {
+    border-bottom: 1px dashed grey;
+    .actions {
+      font-size: 80%;
+    }
+  }
+}

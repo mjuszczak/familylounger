@@ -1,0 +1,266 @@
+#signin {
+  margin-left: 5px;
+  margin-top: 5px;
+  a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #278173;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.signinform {
+  width: 900px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #84dace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
+  -moz-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -moz-border-bottom-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-image: url(homedfade.png);
+  background-repeat: repeat-x;
+  background-position: top;
+  .formwrap {
+    width: 375px;
+    margin: auto;
+  }
+  #forgot-password {
+    margin-left: 25px;
+    font-size: 85%;
+  }
+}
+
+.signup {
+  width: 900px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #84dace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -moz-border-bottom-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-image: url(homedfade.png);
+  background-repeat: repeat-x;
+  background-position: top;
+  display: none;
+  .col1 {
+    float: left;
+    width: 300px;
+    margin-left: 25px;
+  }
+  .col2 {
+    width: 450px;
+    float: left;
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+}
+
+#searcharea {
+    width: 200px;
+    float: right;
+    margin-top: 35px;
+    font-family: 'Lato', sans-serif;
+}
+
+.searchlounges {
+  width: 900px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #84dace;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: none;
+  -moz-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -moz-border-bottom-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-image: url(homedfade.png);
+  background-repeat: repeat-x;
+  background-position: top;
+  .formwrap {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+.closedrops {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  a {
+    color: #999;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+#homelogo {
+  height: 275px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  .logo {
+    width: 900px;
+    margin: 20px auto 0 auto;
+  }
+}
+
+#homesignup {
+  min-height: 100px;
+  width: 100%;
+  background-color: #8eded3;
+}
+
+#homeinfo {
+  width: 100%;
+  margin: 40px 0px;
+  float: left;
+  .infobox {
+    width: 900px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    &.topline {
+      margin-top: 35px;
+      padding-top: 10px;
+      border-top: 1px solid #999;
+    }
+    p {
+      line-height: 1.5;
+    }
+  }
+  .imgbox {
+    float: left;
+    width: 118px;
+    margin-right: 20px;
+  }
+}
+
+#loginwrap {
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mainlogin {
+  height: 75px;
+  width: 289px;
+  margin-top: 15px;
+  float: left;
+  img {
+    border: none;
+  }    
+}
+
+.easyprivate {
+  float: left;
+  margin-top: 45px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #13423A;
+  margin-left: 15px;
+}
+
+a.homesearch {
+    padding: 4px;
+    border: 1px solid #666;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #E4A9D2;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-background-clip: padding-box;
+    border-radius: 4px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.homesearch:hover {
+    padding: 4px;
+    border: 1px solid #666;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #C3272F;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-background-clip: padding-box;
+    border-radius: 4px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.teal {
+    color: #4B9489;
+    text-decoration: none;
+}
+
+a.teal:hover {
+    color: #4B9489;
+    text-decoration: underline;
+}
+
+#pinkline {
+    background-color: #E4A9D2;
+    height: 2px;
+    width: 100%;
+}
+
+.searchlounges {
+    form {
+        margin: 20px 0;
+        text-align: center;
+    }
+    a {
+        color: #278173;
+    }
+    ul {
+        li:first-of-type {
+            border-top: 1px solid #278173;
+        }
+        li {
+            border-bottom: 1px solid #278173;
+            padding: 20px;
+            img {
+                float: left;
+                display: block;
+                width: 75px;
+                margin-right: 10px;
+            }
+            .info {
+                padding-top: 10px;
+            }
+        }
+    }
+}

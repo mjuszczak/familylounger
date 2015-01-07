@@ -1,0 +1,154 @@
+/* Generic styling */
+.postsummary {
+  width: 800px;
+  margin-left: 35px;
+  margin-bottom:25px;
+  padding-bottom:25px;
+  border-bottom:1px solid #ccc;
+  .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    a, a:visited {
+      color: #4B9489;
+      text-decoration: underline;
+    }
+  }
+  .dateboxwrap {
+    width: 68px;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    .datebox {
+      width: 55px;
+      float: left;
+      font-family: 'Lato', sans-serif;
+      background-color: #00D2D1;
+      padding: 5px;
+      border: 1px solid #C0C0C0;
+      text-shadow:
+        -1px -1px 0 #FFF,
+        1px -1px 0 #FFF,
+        -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+    .year {
+      width: 65px;
+      clear: left;
+      font-size: 12px;
+      color: #666;
+    }
+  }
+  .post {
+    width: 700px;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    margin-left: 25px;
+  }
+  .comments {
+    margin-left: 92px;
+    margin-top: 10px;
+    float: left;
+    width: 300px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    a, a:visited {
+      color: #4B9489;
+      text-decoration: underline;
+    }
+  }
+}
+.post {
+  #meta {
+    font-size: 90%;
+    .gravatar {
+      display: inline;
+      img {
+        vertical-align:middle;
+      }
+    }
+    .info {
+      display: inline;
+    }
+  }
+  .attachments {
+    margin: 15px 0px;
+    li {
+      display: inline-block;
+      margin: 10px;
+      padding: 0;
+    }
+    img {
+      width: 120px;
+      border: 1px solid #ccc;
+    }
+    img:hover {
+      border: 1px solid #aaa;
+    }
+  }
+  .content {
+    margin: 15px 0px;
+    font-size: 110%;
+  }
+  .comments {
+    margin-top: 10px;
+    border-top: 2px solid #ccc;
+    .comment-count {
+      margin-bottom: 10px;
+      h2 {
+        font-size: 120%;
+        font-weight: bold;
+      }
+    }
+    .reply {
+      margin-bottom: 15px;
+      textarea {
+        display: block;
+        width: 100%;
+        min-height: 60px;
+        border:2px solid #ccc;
+        border-radius: 5px;
+        font-size:100%;
+      }
+      input[type=submit] {
+        display:block;
+        float:right;
+      }
+    }
+    .comment {
+      width:100%;
+      margin-bottom:25px;
+      .author-gravatar {
+        float:left;
+        width: 50px;
+        margin-right: 15px;
+      }
+      .comment-data {
+        float:left;
+        width: 70%;
+      }
+      .author-date {
+        margin-bottom:8px;
+        .author {
+          font-weight: bold;
+        }
+        .comment-date {
+          color: grey;
+          font-size: 90%;
+        }
+      }
+    }
+  }
+}
+#add-edit-post {
+  input[type=text] {
+    width: 100%;
+    font-size: 100%;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 100%;
+  }
+}

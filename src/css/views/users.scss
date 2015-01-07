@@ -1,0 +1,55 @@
+#user-profile {
+  section {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bbb;
+  }
+  section:last-of-type {
+    border-bottom: none;
+  }
+  .user {
+    .center {
+      width: 40%;
+      margin: auto;
+      img {
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
+      }
+      .info {
+        display: inline-block;
+        float: left;
+      }
+    }
+  }
+  .lounge-memberships {
+  }
+}
+
+#update-user {
+  section {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bbb;
+  }
+  section:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.login-register {
+  h3 {
+    font-weight: bold;
+  }
+  .col {
+    float: left;
+    width: 30%;
+  }
+  .col2 {
+    padding-top: 10%;
+    text-align: center;
+  }
+  .forgot-password {
+    font-size: 85%;
+  }
+}

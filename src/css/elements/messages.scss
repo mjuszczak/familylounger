@@ -1,0 +1,28 @@
+#messages {
+  a.close {
+    float: right;
+  }
+  li {
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+  }
+  .success {
+    background-color: #E9F5F3;
+    &:before {
+      content: "\2714";
+      color: #006664;
+      margin: 6px;
+    }
+  }
+  .error {
+    background-color: pink;
+    &:before {
+      content: "\2718";
+      color: red;
+      margin: 6px;
+    }
+  }
+}

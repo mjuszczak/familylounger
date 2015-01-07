@@ -1,0 +1,15 @@
+$link_color: #4B9489;
+
+a {
+  color: $link_color;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: darken($link_color, 10%);
+}

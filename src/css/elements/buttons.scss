@@ -1,0 +1,49 @@
+/*
+.button {
+  padding: 6px;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #eee;
+  border-radius: 4px;
+  &:hover, &:focus {
+    padding: 6px;
+    border: 1px solid #666;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #D96C93;
+  }
+}
+*/
+.button {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 28px;
+  margin-right: 4px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  border: 1px solid gainsboro;
+  border-bottom: 1px solid #d6d6d6;
+  border-top: 1px solid #ebebeb;
+  color: #555;
+  text-shadow: 0 1px 0 #fdfdfd;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-box-shadow: inset 0 -1px 0 #f0f0f0, inset 0 1px 0 white, inset -1px 0 0 white, inset 1px 0 0 white;
+  -moz-box-shadow: inset 0 -1px 0 #f0f0f0, inset 0 1px 0 white, inset -1px 0 0 white, inset 1px 0 0 white;
+  box-shadow: inset 0 -1px 0 #f0f0f0, inset 0 1px 0 white, inset -1px 0 0 white, inset 1px 0 0 white;
+  background-color: white;
+  background-image: -moz-linear-gradient(white, #f7f7f7);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#f7f7f7));
+  background-image: -webkit-linear-gradient(white, #f7f7f7);
+  background-image: -o-linear-gradient(white, #f7f7f7);
+  &.small {
+    height: 24px;
+    padding: 0px 6px;
+    font-size: 11px;
+  }
+}
