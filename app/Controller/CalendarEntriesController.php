@@ -18,6 +18,16 @@ class CalendarEntriesController extends AppController {
         if($userLoungeRole == 'admin')
             return true;
 
+        if($userLoungeRole == 'user'){
+            return in_array(
+                $this->action,
+                array(
+                    'index',
+                    'view',
+                )
+            );
+        }
+
         return false;
     }
 
