@@ -7,6 +7,9 @@ ram             = '768'
 
 bootstrap_script = <<SCRIPT
 
+# Flush iptables
+iptables -F
+
 # Install common
 yum install -y git wget curl
 
@@ -17,9 +20,10 @@ yum install -y mysql mysql-server
 /etc/init.d/mysqld start
 /etc/init.d/httpd start
 
-# Clone code
+# Setup app
 mkdir -p /var/www/vhosts/www.familylounger.local/
 git clone https://github.com/mjuszczak/familylounger.git /var/www/vhosts/www.familylounger.local
+cp /var/www/vhosts/www.familylounger.local/app/Config/simple-config.php.example /var/www/vhosts/www.familylounger.local/app/Config/simple-config.php
 chown -R apache:apache /var/www/vhosts/www.familylounger.local/app/tmp
 
 # Setup database
