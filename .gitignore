@@ -1,3 +1,6 @@
+# Vagrant stuff
+.vagrant
+
 # Config containing secrets
 app/Config/simple-config.php
 

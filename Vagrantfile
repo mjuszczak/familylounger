@@ -2,7 +2,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 box             = 'centos64'
 url             = 'http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210.box'
-hostname        = 'test.local'
+hostname        = 'familylounger.local'
 ram             = '768'
 
 bootstrap_script = <<SCRIPT
@@ -34,7 +34,7 @@ cat > /etc/httpd/conf.d/25-familylounger.conf <<EOF
   ServerAlias *.familylounger.local
   DocumentRoot /var/www/vhosts/www.familylounger.local/app/webroot
   <Directory /var/www/vhosts/www.familylounger.local/app/webroot>
-    Options FollowSymLink
+    Options FollowSymLinks
     AllowOverride All
     Order allow,deny
     Allow from all
